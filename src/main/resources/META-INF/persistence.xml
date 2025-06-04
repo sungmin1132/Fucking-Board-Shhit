@@ -11,7 +11,7 @@ xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml
   <!-- JPA 3.1 では `javax.persistence` ではなく `jakarta.persistence` に変更 -->
   <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
   <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost/message_board?useSSL=false&amp;allowPublicKeyRetrieval=true"/>
-   <property name="jakarta.persistence.jdbc.user" value="mesuser"/>
+  <property name="jakarta.persistence.jdbc.user" value="mesuser"/>
   <property name="jakarta.persistence.jdbc.password" value="mespass"/>
 
 
@@ -23,4 +23,3 @@ xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml
   </properties>
 </persistence-unit>
 </persistence>
-  
