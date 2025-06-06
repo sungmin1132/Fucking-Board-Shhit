@@ -3,19 +3,19 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>Message Board</title>
+        <title>メッセージボード</title>
     </head>
     <body>
         <div id="wrapper">
-               <div id="header">
-               <h1>Message Board Application</h1>
-               </div> 
-               <div id="contents">
-                    ${param.content}
-               </div>
-               <div id="footer">
-                       by taro.
-               </div>
-       </div>
+            <div id="header">
+                <h1>メッセージボード アプリケーション</h1>
+            </div>
+            <div id="content">
+                ${param.content}
+            </div>
+            <div id="footer">
+                by Taro Kirameki.
+            </div>
+        </div>
     </body>
 </html>
